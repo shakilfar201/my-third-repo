@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.mid-content{
+    max-width: 1140px;
+    margin: auto;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body,h1,h2,h3,h4,h5,h6,p,a{
+    font-family: 'Poppins', sans-serif;
+}
+/* Header */
+
+.header-sebtion {
+    background: #46243A;
+    padding: 15px 0;
+}
+.heaer-logo{
+    width: 38%;
+}
+.heaer-logo a{}
+.heaer-logo img{}
+
+.header-menu{
+    width: 62%;
+}
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: -4px;
+}
+.header-menu ul li a {
+    display: initial;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 67px;
+    transition: .4s;
+}
+.header-menu ul li a span{
+    font-size: 25px;
+}
+.header-menu ul li a:hover{
+    color: #AF2242;
+}
+
+/* banner */
+
+.banner-section{
+    background: url(img/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.banner-content{}
+.banner-content h1 {
+    width: 70%;
+    color: #fff;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.banner-content p {
+    width: 49%;
+    font-size: 18px;
+    word-spacing: 5px;
+    color: #e9e9e9;
+    margin-bottom: 50px;
+}
+button.default-btn {
+    padding: 18px 55px;
+    font-size: 15px;
+    border-radius: 40px;
+    border: 2px solid #fff;
+    background: #A52347;
+    color: #fff;
+    margin-bottom: 50px;
+    transition: .4s;
+}
+button.default-btn:hover{
+    background: black;
+    border: 2px solid black;
+    color: #fff;
+    cursor: pointer;
+}
+button.default-btn:focus{
+    outline: none;
+}
+.banner-icon {
+    position: relative;
+    top: 15px;
+}
+.banner-icon ul{}
+.banner-icon ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: -4px;
+}
+.banner-icon ul li a {
+    text-decoration: none;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    background: #fff;
+    color: #A82340;
+    text-align: center;
+    margin-right: 20px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    transition: .4s;
+}
+.banner-icon ul li a:hover{
+    background: #A82340;
+    color: #fff;
+}
+
+/* about-section */
+.about-section {
+    background: url(img/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
+.about-content p {
+    color: #767676;
+    padding: 10px 150px;
+    margin-bottom: 25px;
+}
+.about-content h1 {
+    font-size: 45px;
+    color: #A2244A;
+    margin-bottom: 10px;
+}
+.about-content h1 span{
+    color: black;
+    font-size: 50px;
+}
+.about-border {
+    border: 2px solid black;
+    padding: 10px 35px;
+    border-radius: 35px;
+}
+.about-border-content{
+    width: 65%;
+}
+.about-border-content p {
+    color: #767676;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 30px;
+    line-height: 32px;
+    margin-bottom: 70px;
+}
+.about-borderimg {
+    width: 35%;
+    margin-top: 40px;
+}
+
+/* library-section */
+
+.library-section {
+    padding: 50px 0px;
+}
+.library-content{}
+.library-content h1 {
+    color: #A5224A;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.library-content h1 span{
+    color: black;
+}
+.library-content p {
+    color: #767676;
+    padding: 10px 150px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+/* library-img-section */
+.library-img-section{
+    background: #81256C;
+    padding-top: 30px;
+}
+/* books-section */
+
+.books-section{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.books-content{}
+.books-content h1{
+    color: #A5224A;
+    font-size: 45px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.books-content h1 span{
+    color: black;
+}
+.books-content p{
+    color: #767676;
+    padding: 10px 150px;
+    line-height: 31px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.books-img{
+    margin-bottom: 30px;
+}
+.img-1-lear{
+    width: 33.3%;
+}
+.books-img .nk{
+    margin-top: 35px;
+}
+
+.books-p p{
+    color: #767676;
+    padding: 10px 352px;
+    line-height: 31px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+/* contact */
+
+.contact {
+    background: #2c2a2e;
+    padding: 100px 0;
+}
+.contact-h h1 {
+    color: white;
+    letter-spacing: 1px;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.contact-t {
+    margin-bottom: 100px;
+}
+input[type="text"] {
+    padding: 20px 5px;
+    width: 21%;
+    font-size: 17px;
+    margin-right: 20px;
+}
+input[type="text"]:focus{
+    outline: none;
+}
+input[type="email"] {
+    padding: 20px 5px;
+    width: 23%;
+    font-size: 17px;
+    margin-right: 20px;
+}
+input[type="email"]:focus{
+    outline: none;
+}
+textarea {
+    padding-bottom: 10px;
+    padding-left: 5px;
+    position: relative;
+    top: 24px;
+    padding-top: 9px;
+    left: 0;
+    bottom: 0;
+    font-size: 17px;
+    width: 23%;
+    padding-right: 5px;
+}
+textarea:focus{
+    outline: none;
+}
+.send button {
+    display: inline-block;
+    padding: 18px 60px;
+    font-size: 24px;
+    background: #81266C;
+    color: #fff;
+    outline: none;
+    border: 1px;
+    transition: .4s;
+}
+.send button:hover{
+    background: #fff;
+    color: #222021;
+    cursor: pointer;
+}
+
+/* footer-section */
+
+.footer-section{
+    background: url(img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0;
+}
+.follow{
+    width: 30%;
+}
+.follow h3 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+}
+.newsletter{
+    width: 60%;
+}
+.newsletter h3 {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 18px;
+}
+.last-form input[type="email"] {
+    width: 76%;
+    margin-right: 0;
+    padding: 10px 5px;
+    padding-bottom: 12px;
+}
+.last-form button {
+    display: inline-block;
+    padding: 14px 33px;
+    margin-left: -5px;
+    background: black;
+    color: white;
+    outline: none;
+    border: 1px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: .4s;
+}
+.last-form button:hover{
+    cursor: pointer;
+    background: #81266C;
+    color: #fff;
+}
+
+/*copy-write */
+
+.copy-write{
+    padding: 20px 0;
+}
